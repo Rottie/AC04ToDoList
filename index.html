@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="m-5">
+    <header class="mb-3">
+      <h4>My Todo</h4>
+      <div class="form-inline">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+      </div>
+
+    </header>
+
+    <!--1A.設定 main section,其用意為方便對Todo 以及 Done 做運算-->
+    <main class="content">
+      <!--1B.原先題目給的Todo區域-->
+      <h3 class="Todo">Todo</h3>
+      <ul id="my-todo" class="list-unstyled">
+        <!-- display todos here -->
+      </ul>
+
+      <!--1C.後來新增的Done區域，其架構遵循題目給規格即可-->
+      <h3 class="Done">Done</h3>
+      <ul id="my-done" class="list-unstyled">
+        <!-- display todos here -->
+      </ul>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
